@@ -2,7 +2,7 @@
 
 Este es un sencillo script en js para configurar una rpc personalizada en Discord utilizando la biblioteca `discord-rpc`.
 
-![Discord-Presencia-RPC](./images/rpc)
+images/rpc.png
 
 
 ## Requisitos
