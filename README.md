@@ -1,9 +1,8 @@
-# Presencia rpc
+# Presencia RPC
 
-Este es un sencillo script en js para configurar una rpc personalizada en Discord utilizando la biblioteca `discord-rpc`.
+![RPC Banner](./images/rpc.png)
 
-images/rpc.png
-
+Este es un sencillo script en JS para configurar una RPC personalizada en Discord utilizando la biblioteca `discord-rpc`.
 
 ## Requisitos
 
