@@ -12,19 +12,19 @@ async function actividad() {
 
   // DETALLES PARA LA PRESENCIA
   RPC.setActivity({
-    detalles: ' DETALLES_DE_LA_RPC ', // Lo que aparece en la línea superior de la presencia rica
-    estado: ' ESTADO_DE_LA_RPC ',     // Texto adicional que aparece debajo de los detalles
-    largeImageKey: ' CLAVE_DE_IMAGEN_GRANDE ',  // Nombre del archivo de la imagen grande (opcional)
-    largeImageText: ' TEXTO_ALTERNATIVO_IMAGEN_GRANDE ',  // Texto que aparece al pasar el mouse sobre la imagen grande (opcional)
-    smallImageKey: ' CLAVE_DE_IMAGEN_PEQUEÑA ',  // Nombre del archivo de la imagen pequeña (opcional)
-    smallImageText: ' TEXTO_ALTERNATIVO_IMAGEN_PEQUEÑA ', // Texto que aparece al pasar el mouse sobre la imagen pequeña (opcional)
-    instance: false,  // Indica si la aplicación está en modo multijugador (opcional)
-    startTimestamp: Date.now(),  // Marca de tiempo de inicio de la actividad (opcional)
+    detalles: ' DETALLES_DE_LA_RPC ',
+    estado: ' ESTADO_DE_LA_RPC ',    
+    largeImageKey: ' CLAVE_DE_IMAGEN_GRANDE ',
+    largeImageText: ' TEXTO_ALTERNATIVO_IMAGEN_GRANDE ', 
+    smallImageKey: ' CLAVE_DE_IMAGEN_PEQUEÑA ', 
+    smallImageText: ' TEXTO_ALTERNATIVO_IMAGEN_PEQUEÑA ',
+    instance: false, 
+    startTimestamp: Date.now(), 
     // SOLO PUEDES TENER 2 BOTONES, APARECEN EN LA PARTE INFERIOR DE LA PRESENCIA ENRIQUECIDA
     buttons: [
       {
-        label: ' TEXTO_DEL_BOTÓN ',  // Texto que aparece en el botón
-        url: ' URL_DEL_BOTÓN '      // URL a la que se dirige al hacer clic en el botón
+        label: ' TEXTO_DEL_BOTÓN ',  
+        url: ' URL_DEL_BOTÓN '      
       },
       {
         label: ' TEXTO_DEL_BOTÓN ',
@@ -34,7 +34,7 @@ async function actividad() {
   });
 }
 
-// NODEMANAGER. EN LA TERMINAL PARA EJECUTAR EL CÓDIGO Y ACTIVAR LA PRESENCIA 
+// NODE . EN LA TERMINAL PARA EJECUTAR EL CÓDIGO Y ACTIVAR LA PRESENCIA 
 RPC.on('ready', async () => {
   console.log("Presencia en Discord activada");
   actividad();
