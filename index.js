@@ -11,8 +11,8 @@ async function actividad() {
 
   // DETALLES PARA LA PRESENCIA
   RPC.setActivity({
-    detalles: ' DETALLES_DE_LA_RPC ',
-    estado: ' ESTADO_DE_LA_RPC ',    
+    details: ' DETALLES_DE_LA_RPC ',
+    state: ' ESTADO_DE_LA_RPC ',    
     largeImageKey: ' CLAVE_DE_IMAGEN_GRANDE ',
     largeImageText: ' TEXTO_ALTERNATIVO_IMAGEN_GRANDE ', 
     smallImageKey: ' CLAVE_DE_IMAGEN_PEQUEÑA ', 
