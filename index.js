@@ -1,3 +1,6 @@
+// Este código pertenecía a otro usuario, solamente lo hice funcionar y minimalice el código para una mejor función,
+// pronto lanzaré mi propia versión premium.
+
 const ID = 'ID_DE_LA_APLICACIÓN';
 
 // COLOCA 'NPM INSTALL DISCORD-RPC' EN LA TERMINAL
